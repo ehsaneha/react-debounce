@@ -7,16 +7,14 @@ A lightweight and reusable React hook for debouncing function calls. It waits un
 ## 🚀 Installation
 
 ```bash
-npm install use-debounce-hook
+npm install react-debounce
 ```
 
 or
 
 ```bash
-yarn add use-debounce-hook
+yarn add react-debounce
 ```
-
-> Note: Replace `use-debounce-hook` with your actual package name.
 
 ---
 
@@ -24,7 +22,7 @@ yarn add use-debounce-hook
 
 ```tsx
 import React, { useState } from "react";
-import { useDebounce } from "use-debounce-hook";
+import { useDebounce } from "react-debounce";
 
 const SearchInput = () => {
   const [query, setQuery] = useState("");
