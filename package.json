@@ -1,6 +1,6 @@
 {
   "name": "@ehsaneha/react-debounce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "useDebounce is a custom React hook that delays invoking a function until a specified time has passed since the last call, ideal for handling user input like search fields.",
   "main": "dist/index.js",
   "scripts": {
